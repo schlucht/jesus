@@ -1,0 +1,25 @@
+main{
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+main article{
+    border: solid 2px yellow;
+    
+}
+article .titel{
+    text-align: center;
+}
+article .titel {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #666;
+}
+article .titel a h2{    
+    font-size: 1.5rem;
+}
+article p{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
