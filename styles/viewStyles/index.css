@@ -22,7 +22,7 @@ main{
 .art a h2{    
     font-size: 1.8rem;
 }
-.art a:focus+.txt{
+.klappen:focus p{
     /*visibility: visible; */
     display: block;    
 }
@@ -30,5 +30,52 @@ main{
     font-size: 1.3rem;    
     padding: 0.3rem;
     /*visibility: hidden;*/
+    display: none;
+}
+
+.art {
+    position: relative;
+    border: 1px solid #ddd;
+}
+ 
+/* Ausblenden des input-Feldes */
+.art input {
+    position: absolute;
+    left: -99999px;
+}
+ 
+/* Gestaltung der labels */
+.art label {
+    display: block;
+    background: #68B022;
+    color: #fff;
+    padding: .4em;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+.art label:hover {
+    background: #ddd;
+}
+ 
+/* Der Aufklappmechanismus */
+.art input:not(:checked) + div {
+    opacity: 0;
+    height: 0;
+}
+ 
+.art input:checked + div {
+    opacity: 1;
+    padding: .8em;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+ 
+/* Steuerung der Sichtbarkeit der labels */
+.art input:not(:checked) + .close,
+.art input:checked + .open {
     display: none;
 }
