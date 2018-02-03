@@ -20,6 +20,7 @@ main{
 }
 .vorwort p{
     margin: 0.3rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000044;
 }
@@ -31,6 +32,7 @@ main{
     margin-bottom: 0.5rem;
     width: 100%;
     color: #f1a80b;
+    font-size: 1.4rem;
     overflow: hidden;
   }
   input {
@@ -60,10 +62,10 @@ main{
     margin: 1em;
   }
   .tab-content a {
-      display:block;
+     display:block;
       text-align: center;
-      margin: 0 auto 0.3rem auto;
-      font-size: 1.2rem;      
+      margin: 0 auto 0.5rem auto;
+      font-size: 1.6rem;      
       border: solid 1px rgba(0, 0, 68, 0.4);
       padding: 0.3rem 0 0.3rem 0;
   }
@@ -78,7 +80,7 @@ main{
   }
   /* :checked */
   input:checked ~ .tab-content {
-    max-height: 10em;
+    max-height: 100%;
   }
   /* Icon */
   label::after {
@@ -94,14 +96,8 @@ main{
     -o-transition: all .35s;
     transition: all .35s;
   }
-  input[type=checkbox] + label::after {
-    content: "+";
-  }
-  input[type=radio] + label::after {
+ input[type=radio] + label::after {
     content: "\25BC";
-  }
-  input[type=checkbox]:checked + label::after {
-    transform: rotate(315deg);
   }
   input[type=radio]:checked + label::after {
     transform: rotateX(180deg);
