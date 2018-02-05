@@ -9,6 +9,7 @@ main{
 /*Vorwort Style*/
 .vorwort{
     padding: 0 0.3rem 0 0.3rem;
+    font-size: 1.4rem;
 }
 .vorwort title{
     background-color: #c79af1;
@@ -26,7 +27,13 @@ main{
     color: #000044;
     line-height: 1.8rem;
 }
-
+.vorwort a img{
+    height: 3rem;
+}
+.vorwort span img{
+  display: table;
+  
+}
 
 /* Acordeon styles */
 .tab {
