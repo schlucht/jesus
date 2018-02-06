@@ -8,32 +8,34 @@ main{
 
 /*Vorwort Style*/
 .vorwort{
-    padding: 0 0.3rem 0 0.3rem;
+    padding: 0 0.3rem 0.3rem 0.3rem;
     font-size: 1.4rem;
+    line-height: 1.6rem;
+    
 }
-.vorwort title{
+.vorwortTitel{
     background-color: #c79af1;
     color: #000044;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 0.5rem;
     margin-bottom: .6rem;
     display:block;
     border-radius: 0.3rem;    
 }
-.vorwort p{
-    margin: 0.3rem;
-    font-size: 1.4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000044;
-    line-height: 1.8rem;
+.vorwort div.table{
+  display: table;
+}
+.vorwort div.tr{
+  display: table-row;
+}
+.vorwort div.td{
+  display: table-cell;
+  padding: 0.5rem;
 }
 .vorwort a img{
     height: 3rem;
 }
-.vorwort span img{
-  display: table;
-  
-}
+
 
 /* Acordeon styles */
 .tab {
