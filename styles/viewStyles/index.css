@@ -27,10 +27,15 @@ main{
 }
 .vorwort div.tr{
   display: table-row;
+  border-bottom: 1px solid rgb(74, 7, 129);  
 }
 .vorwort div.td{
   display: table-cell;
   padding: 0.5rem;
+  border-bottom: 1px solid rgb(74, 7, 129);  
+}
+.label{
+  font-weight: bolder;
 }
 .vorwort a img{
     height: 3rem;
@@ -54,8 +59,15 @@ main{
   label {
     position: relative;
     display: block;
-    padding: 0 0 0 1em;
-    background: #3d0570;
+    padding: 0 0 0 1rem;
+    margin: .4rem;
+    /*background: #3d0570;*/
+    box-shadow:.2rem .2rem .2rem #333333;
+    background-image:linear-gradient(rgba(238, 230, 212, .5) 10%, 
+                                    rgb(74, 7, 129) 50%,   
+                                    rgb(74, 7, 129) 65%,                                 
+                                    rgba(238, 230, 212, .5) 90%);
+    
     font-weight: bold;
     line-height: 3;
     cursor: pointer;

@@ -12,6 +12,7 @@ html, body{
 	background-color: #eee;
 	color: #444;	
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
 }
 h1, h2, h3, h4{	
 	color: rgb(245, 170, 8);
