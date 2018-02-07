@@ -1,36 +1,41 @@
-
 /***********************************************************************************
-/ Grundeinstellunen meiner Seite
+/ Grundeinstellungen meiner Seite
 /
 / Erstellt: 31.1.2018 Author: Schmid Lothar
 /***********************************************************************************/
 
-*{
+* {
 	box-sizing: border-box;
 }
-html, body{	
+
+html, body {
 	background-color: #eee;
-	color: #444;	
+	color: #444;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 10px;
 }
-h1, h2, h3, h4{	
+
+h1, h2, h3, h4 {
 	color: rgb(245, 170, 8);
 	font-family: sans-serif;
 }
-h3{
+
+h3 {
 	font-size: 1.6rem;
 }
-a{
-	text-decoration: none;
-	font-weight: bold;
-	color: rgb(23, 2, 41);
-}
 
-.bib {	
-	color:rgb(74, 7, 129);
+a {
+	text-decoration: underline;
+	font-weight: bold;
+	color: rgb(47, 3, 85);
+}
+/*Bibel Zitate Style*/
+.bib .abib {	
+	display: inline;
 	font-style: italic;
 }
-.abib{	
-	
+
+.abib {
+	display: inline;
+	padding: 0;
 }
