@@ -39,3 +39,8 @@ a {
 	display: inline;
 	padding: 0;
 }
+.bib:before{
+	font-size: 2rem;
+	content:"\261b";
+	padding-left: .4rem;
+}
