@@ -1,19 +1,28 @@
 footer{
     height: 5rem;
-    width: 100vw;
+    width: 95vw;
     background-color: rgb(54, 6, 99);
-    color: rgb(255,255,255);
-    padding: .2rem;
+    color: rgb(255,255,255);    
     font-size: 1.2rem;
+    margin: 0 auto;
 }
 footer nav{    
-    width: 100%;
-    background-color: azure;
+    width: 100%; 
 }
-footer nav a{
-    display:block;
+.navFooter>ul>li{
+    display: inline-block;
+    margin: .2rem;
+}
+.navFooter>ul>li>a{    
     color: orange;
-    font-size: 1.6rem;
-    margin: .3rem auto .3rem auto;
-    float: left;
+    font-size: 1.6rem;    
+    padding: .2rem;
+    width: 25%;
+    background-color: aliceblue;
+} 
+footer>p{
+    margin-top: 1.8rem;
+
+    font-size: 1.1rem;
+    float: right;
 }
