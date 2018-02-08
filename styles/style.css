@@ -30,17 +30,15 @@ a {
 	color: rgb(47, 3, 85);
 }
 /*Bibel Zitate Style*/
-.bib .abib {	
-	display: inline;
+.bib > p{	
+	
 	font-style: italic;
+	margin: .4rem;
+	line-height: 1.6rem;
 }
-
-.abib {
-	display: inline;
-	padding: 0;
-}
-.bib:before{
+.bib > p:before{
 	font-size: 2rem;
 	content:"\261b";
 	padding-left: .4rem;
+	padding-right: .4rem;
 }

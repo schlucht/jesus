@@ -18,6 +18,7 @@
         </div>
     </header>
     <main>
+        <!-- Angaben vom Buch -->
         <div class="vorwort" id="home">
             <div class="vorwortTitel">Aus dem Buch: Seiner Spur folgen</div>
             <div class="table">
@@ -30,11 +31,13 @@
                 <div class="tr">
                     <div class="td label">PDF:</div>
                     <div class="td">
-                        <a href="http://www.sermon-online.de/search.pl?lang=de&id=15403&title=&biblevers=&searchstring=&author=0&language=0&category=0&play=0&tm=2">
-                            CLV - Verlag.
-                            <br>Von
-                            <img src="./images/sermon_top.gif">
-                        </a>
+                        CLV - Verlag.
+                        <div class="vorwortImg">
+                            <span>Von</span>
+                            <a href="http://www.sermon-online.de/search.pl?lang=de&id=15403&title=&biblevers=&searchstring=&author=0&language=0&category=0&play=0&tm=2">
+                                <img src="./images/sermon_top.gif">
+                            </a>
+                       </div>
                     </div>
                 </div>
                 <div class="tr">
@@ -51,7 +54,11 @@
             <label for="tab-1">Einleitung</label>
             <div class="tab-content">
                 <p>Wir sollten immer beten:</p>
-                <blockquote class="bib">»Herr, mache mich mehr wie Christus und weniger wie mich selbst.«</blockquote>
+                <blockquote class="bib">
+                    <p>
+                       <span>»Herr, mache mich mehr wie Christus und weniger wie mich selbst.«</span> 
+                    </p>
+                </blockquote>
                 <p>
                     Kein Christ würde darüber diskutieren, dass wir mehr wie der Herr Jesus sein sollten.
                     <br> Das ist einfach eine Tatsache.
@@ -69,6 +76,7 @@
         </article>
         <article class="tab">
             <input id="tab-2" type="checkbox" name="tabs">
+            
             <label for="tab-2">Er war ein Mann des Buches</label>
             <div class="tab-content">
                 <p>Christi Sinn war erfüllt mit der Heiligen Schrift. Er zitierte das Wort Gottes und bezog sich darauf als
@@ -85,9 +93,11 @@
             <div class="tab-content">
                 <p> Er war der gesegnete Mann aus</p>
                 <blockquote class="bib">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum quos ipsum assumenda similique facilis quia quibusdam
-                    vitae ipsam, vel aut animi impedit in tenetur pariatur itaque laudantium. Dolorum, sed!
-                    <a class="abib" href="https://www.bibleserver.com/text/SLT/Psalm1,2">Psalm 1</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum quos ipsum assumenda similique
+                        facilis quia quibusdam vitae ipsam, vel aut animi impedit in tenetur pariatur itaque laudantium.
+                        Dolorum, sed!
+                        <a class="abib" href="https://www.bibleserver.com/text/SLT/Psalm1,2">Psalm 1</a>
+                    </p>
                 </blockquote>,
                 <p> der seine Lust hatte am Gesetz des Herrn und über sein Gesetz nachsann Tag und Nacht</p>
                 <a href="#home" alt="Home" class="home">Nach oben</a>
@@ -104,7 +114,7 @@
         </article>
     </main>
     <nav>
-        <a href="#">Zitate</a>
+        <a href="#">Links</a>
         <a href="#">Impressum</a>
         <a href="#">Über mich</a>
     </nav>
