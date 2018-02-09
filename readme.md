@@ -4,3 +4,5 @@
  ISBN 978-3-89397-988-2  
  CLV  
  Christliche Literatur-Verbreitung e.V.
+ 
+ [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
